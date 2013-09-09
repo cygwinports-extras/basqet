@@ -1,0 +1,15 @@
+inherit qt4-qmake
+
+NAME="basqet"
+VERSION=0.2.0
+RELEASE=1
+CATEGORY="Utils"
+SUMMARY="Qt note-taking software"
+DESCRIPTION="A cross platform note-taking software built only using Qt.
+Inspired mainly by KDE Basket and Microsoft One-Note rewritten for Qt,
+thus the name Basqet."
+HOMEPAGE="http://code.google.com/p/basqet/"
+SRC_URI="http://basqet.googlecode.com/files/basqet_${VERSION}-src.tgz"
+SRC_DIR="release_${VERSION}"
+
+CYGQMAKE4_ARGS="PREFIX=/usr"

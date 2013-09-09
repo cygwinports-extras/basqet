@@ -1,8 +1,0 @@
-inherit qt4-qmake
-
-
-HOMEPAGE="http://code.google.com/p/basqet/"
-SRC_URI="http://basqet.googlecode.com/files/${PN}_${PV}-src.tgz"
-SRC_DIR="release_${PV}"
-
-CYGQMAKE4_ARGS="PREFIX=/usr"

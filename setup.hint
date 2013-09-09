@@ -1,6 +1,0 @@
-category: KDE
-requires: libgcc1 libQtCore4 libQtGui4 libQtXml4 libstdc++6
-sdesc: "Qt note-taking software"
-ldesc: "A cross platform note-taking software built only using Qt. 
-Inspired mainly by KDE Basket and Microsoft One-Note rewritten for Qt, 
-thus the name Basqet."
